@@ -8,8 +8,8 @@
   <PropertyGroup>
     <PackageId>MySqlBulkLoader</PackageId>
     <Title>MySqlBulkLoader</Title>
-    <Description>SqlBulkCopy helper</Description>
-    <Summary>SqlBulkCopy helper</Summary>
+    <Description>MySqlBulkCopy helper</Description>
+    <Summary>MySqlBulkCopy helper</Summary>
     <PackageTags>mysqlconnector bulkcopy</PackageTags>
   </PropertyGroup>
 

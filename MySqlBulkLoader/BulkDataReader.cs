@@ -41,9 +41,17 @@ internal sealed class BulkDataReader<T> : IDataReader
 
     public bool IsDBNull(int i) => throw new NotSupportedException();
 
-    public object GetValue(int i) => accessors[i](source.Current!)!;
+    public object GetValue(int i) => throw new NotSupportedException();
 
-    public int GetValues(object[] values) => throw new NotSupportedException();
+    public int GetValues(object[] values)
+    {
+        for (var i = 0; i < accessors.Length; i++)
+        {
+            values[i] = accessors[i](source.Current!)!;
+        }
+
+        return accessors.Length;
+    }
 
     public IDataReader GetData(int i) => throw new NotSupportedException();
 
