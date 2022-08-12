@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;netcoreapp3.1;netstandard2.1</TargetFrameworks>
+    <CodeAnalysisRuleSet>..\MySqlBulkLoader.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>MySqlBulkLoader</PackageId>
+    <Title>MySqlBulkLoader</Title>
+    <Description>SqlBulkCopy helper</Description>
+    <Summary>SqlBulkCopy helper</Summary>
+    <PackageTags>mysqlconnector bulkcopy</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.1.11" />
+    <PackageReference Include="Usa.Smart.Core" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
