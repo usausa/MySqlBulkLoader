@@ -37,7 +37,7 @@ public sealed class MySqlBulkLoader
     private Func<object?, object?>[] CreateAccessors(Type type)
     {
         return config.PropertySelector(type)
-            .Select(x => DelegateFactory.Default.CreateGetter(x))
+            .Select(DelegateFactory.Default.CreateGetter)
             .ExcludeNull()
             .ToArray();
     }
