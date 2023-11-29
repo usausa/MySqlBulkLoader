@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="MySqlBulkLoader Rules" Description="MySqlBulkLoader Rules" ToolsVersion="16.0">
+<RuleSet Name="MySqlBulkLoader Rules" Description="MySqlBulkLoader Rules" ToolsVersion="17.0">
   <IncludeAll Action="Warning" />
   <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
     <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/issues/3687 -->
