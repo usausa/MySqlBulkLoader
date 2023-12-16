@@ -2,7 +2,7 @@ namespace MySqlBulkLoader;
 
 using System.Reflection;
 
-public class MySqlBulkLoaderConfig
+public sealed class MySqlBulkLoaderConfig
 {
     public string ConnectionString { get; set; } = default!;
 
