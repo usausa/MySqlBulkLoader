@@ -1,6 +1,8 @@
 # MySqlBulkLoader - MySqlBulkCopy helper
 
-## Usage example
+[![NuGet](https://img.shields.io/nuget/v/MySqlBulkLoader.svg)](https://www.nuget.org/packages/MySqlBulkLoader)
+
+# Usage
 
 ```csharp
 using System;
