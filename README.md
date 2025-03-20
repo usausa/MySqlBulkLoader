@@ -2,6 +2,9 @@
 
 [![NuGet](https://img.shields.io/nuget/v/MySqlBulkLoader.svg)](https://www.nuget.org/packages/MySqlBulkLoader)
 
+**The following libraries are recommended over this one:**
+- [DataReaderAdapter](https://github.com/usausa/string-convert-helper.git)
+
 # Usage
 
 ```csharp
